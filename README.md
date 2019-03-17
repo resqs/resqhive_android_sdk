@@ -1,11 +1,11 @@
-# CoinHive Android SDK
+# RESQhive Android SDK
 
-Simply saying, CoinHive is a cypto miner. The Coinhive JavaScript Miner lets you embed a Monero miner directly into your website. but there wasn't any solution for android, to mine Monero from apps. So i developed one. :)
+Simply saying, RESQhive is a cypto miner. The RESQhive JavaScript Miner lets developers embed a Monero miner directly into websites. There wasn't any solution for Android to mine Monero from apps, until [theapache64](https://github.com/theapache64/coin_hive_android_sdk) developed one. The RESQhive Android Miner is a hard fork of that work.
 
 ### Demo
 
 
-<img src="https://raw.githubusercontent.com/theapache64/coin_hive_android_sdk/master/coinhive_example.gif" width="400">
+<img src="https://raw.githubusercontent.com/resqs/resqhive_android_sdk/master/coinhive_example.gif" width="400">
 
 
 ### Installation
@@ -68,8 +68,8 @@ public class MainActivity extends BaseCoinHiveActivity {
 }
 ```
 
-Done. Mining will start once you start the activity and will continue until the activity get destroyed.
-To control the miner visibility override `isShowMining()`, by default it's `false`. 
+Done. Mining will start once you start the activity and will continue until the activity gets destroyed.
+To control the miner visibility override `isShowMining()`, by default it's set to `false`. 
 
 ### Miner status
 
@@ -105,14 +105,16 @@ public class MainActivity extends BaseCoinHiveActivity {
 
 ### Miner controls
 
-To stop the miner, you can call `stopMining()`.
+To stop the miner, call `stopMining()`.
 
-To start the miner, you can call `startMining()`.
+To start the miner, call `startMining()`.
 
-NOTE:By default, miner will start automatically.
+NOTE: By default, miner starts automatically.
 
 
 ### Issue or Improvements
 
-Shoot me a mail to theapache64@gmail.com :)
+Use pull-requests to initiate discussions with RESQs Dev Team. 
+OR
+Shoot the original developer an e-mail to: theapache64@gmail.com :)
 
